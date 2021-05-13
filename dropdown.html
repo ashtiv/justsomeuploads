@@ -52,12 +52,12 @@
 </style>
 <div class="box">
   <!-- <label for="question">Ask me a question</label> -->
-  <select name="question">  
+  <select id="question" onchange="perform(event)">  
   	<option hidden>Ask me a question</option>
-    <option>What is the date today?</option>
-    <option>What is time now?</option>
-    <option>How are you?</option>
-    <option>What is Javascript?</option>
-    <option>What is your name?</option>
+    <option value="1">What is the date today?</option>
+    <option value="2">What is time now?</option>
+    <option value="3">How are you?</option>
+    <option value="4">What is Javascript?</option>
+    <option value="5">What is your name?</option>
   </select>
 </div>
